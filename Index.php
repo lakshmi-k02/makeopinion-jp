@@ -1,6 +1,5 @@
     <?php include('header.php'); ?>
-
-
+    <!-- Test git commands -->
     <style>
         h1 {
             font-size: 56px
