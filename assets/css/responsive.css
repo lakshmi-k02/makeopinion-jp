@@ -2,14 +2,16 @@
 
 
 /* Big screen :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {}
-
-/* Responsive padding service-offer-section*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* Responsive padding service-offer-section*/
 .service-offer-section-padding {
     padding-bottom: 150px;
     padding-top: 130px;
     background: #fff;
 }
+}
+
+
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1276,6 +1278,11 @@ section.question-section {
         transform: translateY(-1px) !important;
     }
 
+    .service-offer-section-padding {
+        padding-bottom: 50px;
+        padding-top: 30px;
+        background: #fff;
+    }
 
 }
 
