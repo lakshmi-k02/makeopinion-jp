@@ -67,6 +67,56 @@
   </div>
 </section>
 
+<!-- Mobile Hero Section -->
+<section class="home-hero-section-one wf-section mobile-only" style="background: #fff; padding: 100px 20px; background-image: url('./assets/images_new/bg-final.png'); background-size: cover; background-position: center;">
+  <div class="home-hero-container-large w-container">
+    <!-- Hero Caption Block -->
+    <div class="home-hero-caption-block" style="text-align: center;">
+      <h1 class="home-hero-heading" style="font-size: 24px; line-height: 1.4; margin-bottom: 20px;">
+        <span><span style="color:#0070DF">実際の</span>人々の、<span style="color:#0070DF">リアルな</span>声を、<span style="color:#0070DF">世界中で。</span></span><br>
+        オーディエンスに<span style="color:#0070DF">届ける</span><br />
+        回答を<span style="color:#0070DF">集める</span> <br />
+        インサイトを<span style="color:#0070DF">楽しむ</span>
+      </h1>
+      <p class="hero-para-two" style="font-size: 16px; line-height: 1.6; color: #333; margin-bottom: 20px;">何百万もの世界中のモニターにたった数分でアンケートを配信可能。<br />固定費用なしで、支払う前にリアルタイムの単価と調査の実現可能性を確認できます。</p>
+    </div>
+    <!-- CTA Buttons First -->
+    <div class="hero-caption-buttons-one" style="margin-bottom: 20px; text-align: center;">
+      <a role="button" href="#registerbox" class="trial-button w-inline-block" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #0070DF; color: #fff; border-radius: 5px; text-decoration: none; font-size: 14px;">無料でサンプルを確認する</a>
+      <a role="button" href="mailto:bidding@makeopinion.com" class="trial-button feature-button w-inline-block" style="display: inline-block; padding: 10px 20px; background-color: #0070DF; color: #fff; border-radius: 5px; text-decoration: none; font-size: 14px;">お問い合わせ</a>
+    </div>
+    <!-- Hero Image Block Last -->
+    <div class="home-hero-image-block">
+      <div data-w-id="b3ab55ef-0bde-ad3e-dba8-997bea786104" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <div class="home-hero-image-block">
+          <div class="banner-girl-image-block">
+            <img src="./assets/images_new/audience-1-back.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 56vw, (max-width: 991px) 54vw, (max-width: 1439px) 26vw, 347.671875px" srcset="
+                          ./assets/images_new/audience-1-back.png 500w, 
+                          ./assets/images_new/audience-1-back.png 770w" alt="Banner Girl Image" class="hero-main-image">
+          </div>
+          <div class="banner-float-images">
+            <div class="float-image-one">
+              <img src="./assets/images_new/audience-1-top.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/audience-1-top.png 500w, 
+                             ./assets/images_new/audience-1-top.png 714w" alt="Banner Image One" class="float-image">
+            </div>
+            <div class="float-image-two">
+              <img src="./assets/images_new/audience-1-quality.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/audience-1-quality.png 500w, 
+                             ./assets/images_new/audience-1-quality.png 710w" alt="Finance" class="float-image">
+            </div>
+            <div class="float-image-three">
+              <img src="./assets/images_new/audience-1-fast.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/audience-1-fast.png 500w, 
+                             ./assets/images_new/audience-1-fast.png 714w" alt="Order Value" class="float-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="home-new-technology-section-one wf-section" style="background-color:#fff;padding-top: 100px!important;background-image: url('./assets/images_new/bg4.png');background-size: cover;background-position: 0 0">
   <div class="new-tech-container w-container">
     <div class="new-tech-main-section" style="padding-bottom: 25px">
