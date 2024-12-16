@@ -305,30 +305,23 @@
 
                         <!-- Text container for main hero heading -->
                         <div class="overflow-off">
-                            <h1
+                         <h1
                                 data-w-id="c6ec9241-5ff0-3228-1768-d91359094d69"
-                                style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;color:#131A3C"
+                                style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; font-size: 48px;color:#131A3C"
                                 class="hero-section-caption-heading hero-heading">
-
-                                <div class="heading-top-text">
-                                    <span class="sub-text">
-                                        アンケートの<span style="color: #0070DF">作成・配信・集計</span>を<span style="color: #0070DF">ワンストップ</span>で
-
-                                </div>
-                                見込み顧客を<span style="color:#0070DF">知る</span> <br />
-                                <span style="color:#0070DF">より良い製品</span>に繋げる<br />
-                                もっと<span style="color:#0070DF">売る</span>
+                                <span style="color:#0070DF">Make Opinionなら</span><br />
+                                手間を省いて簡単に<br>市場調査を完了
                             </h1>
                         </div>
 
                         <!-- Subheading text block -->
                         <div class="overflow-off">
                         <p
-                            data-w-id="c6ec9241-5ff0-3228-1768-d91359094d6b"
-                            style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;color:#131A3C"
-                            class="hero-section-paragraph-two">
-                            ビジネスの成長に必要なインサイトを迅速に得られる完全なDIY型マーケットリサーチプラットフォームです。
-                        </p>
+                                data-w-id="c6ec9241-5ff0-3228-1768-d91359094d6b"
+                                style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;color:#131A3C;width:100%"
+                                class="hero-section-paragraph-two">
+                                もう複数のアプリを使う必要はありません。<br>プロジェクト遂行に必要なものは、すべて当社のプラットフォームにあります。
+                            </p>
                     </div>
 
                         <!-- Container for action buttons -->

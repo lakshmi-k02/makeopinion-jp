@@ -7,7 +7,7 @@
 /* Responsive padding service-offer-section*/
 .service-offer-section-padding {
     padding-bottom: 150px;
-    padding-top: 130px;
+    /* padding-top: 130px; */
     background: #fff;
 }
 
