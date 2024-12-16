@@ -3,17 +3,165 @@
     h1.home-hero-heading {
         font-size: 48px
     }
+</style>
+<!-- Mobile Styles for hero images-->
+<style>
+    @media screen and (max-width: 767px) {
+        .float-image {
+            border-radius: 6px;
+        }
 
-    .tab-items-heading.no-margin {
-        font-size: 52px;
-        white-space: nowrap;
-    }
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
 
-    h1.demo-heading {
-        font-size: 48px
+        img {
+            border: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+        body {
+            color: #333;
+            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+
+        html {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            font-family: sans-serif;
+        }
+
+        .home-hero-image-block {
+            width: 100%;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+        }
+
+        .home-hero-image-block {
+            width: 100%;
+            background-image: none;
+            background-repeat: repeat;
+            background-size: auto;
+            justify-content: center;
+            display: flex;
+        }
+
+        .overlay-image {
+            width: 180px;
+            /* Smaller size for overlay images on mobile */
+        }
+
+        .master-container {
+            position: relative;
+            display: inline-block;
+            max-width: 60%;
+        }
+
+        .master-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            left: calc(100% + 10px);
+            /* Adds some space between the container and the overlay */
+        }
+
+        .banner-float-images {
+            /* width: 93%; */
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: -66px;
+            display: flex;
+        }
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            /* Moves the overlay to the right side of the container */
+            transform: translate(0, -50%);
+            /* Centers overlay vertically */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Aligns overlay images to the left within the overlay */
+            gap: 20px;
+        }
+
+        .overlay-image {
+            width: 80px;
+            /* Set a fixed width for the overlay images */
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        /* Animation keyframes */
+        @keyframes floatImageAnimation {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Float images with animation */
+        .float-image {
+            border-radius: 6px;
+            opacity: 0;
+            transform: translateY(50px);
+            /* Start slightly below the final position */
+            animation: floatImageAnimation 1s ease-in-out forwards;
+        }
+
+        /* Animation delays for sequential appearance */
+        .float-image-one {
+            animation-delay: 0.2s;
+        }
+
+        .float-image-two {
+            animation-delay: 0.4s;
+        }
+
+        .float-image-three {
+            animation-delay: 0.6s;
+        }
+
     }
 </style>
-<section class="home-hero-section-one wf-section" style="background: #fff;padding-bottom: 170px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
+<section class="home-hero-section-one wf-section desktop-only" style="background: #fff;padding-bottom: 170px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
     <div class="home-hero-container-large w-container">
         <div class="home-hero-main-block">
             <div class="home-hero-caption-block">
@@ -75,8 +223,50 @@
     </div>
 </section>
 
-
-
+<!-- Mobile Hero section -->
+<section class="home-hero-section-one wf-section mobile-only" style="background: #fff; padding-top: 80px; background-image: url('./assets/images_new/bg-final.png'); background-size: cover; background-position: center;">
+    <div class="home-hero-container-large w-container" style="max-width: 1200px; margin: 0 auto;">
+        <!-- Main Block -->
+        <div class="home-hero-main-block" style="display: flex; flex-direction: column; gap: 2rem;">
+            <!-- Text Content Block -->
+            <div class="home-hero-caption-block" style="width: 100%; display: flex; flex-direction: column;">
+                <div class="overflow-off">
+                    <h1 class="home-hero-heading" style="text-align: center; margin-bottom: 1.5rem;">
+                        <span style="font-size: clamp(24px, 4vw, 36px);"><span style="color:#0070DF">売れる</span>オンラインショップへ</span><br>
+                        商品イメージの<span style="color:#0070DF">A/Bテスト</span><br />
+                        商品説明を<span style="color:#0070DF">改善する</span><br />
+                        購入プロセスを<span style="color:#0070DF">最適化</span>
+                    </h1>
+                </div>
+                <div class="overflow-off">
+                    <p class="hero-para-two" style="margin: 1.5rem 0; text-align: center; font-size: 17px;">
+                        効果の高い商品イメージと説明をテストしてから選択できます。<br>ユーザー体験を最適化し、さらなる売上に繋げましょう。
+                    </p>
+                </div>
+                <!-- CTA Buttons -->
+                <div class="overflow-off" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+                    <a href="#registerbox" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
+                        <div class="trail-text-two-home">無料アカウントを作成</div>
+                    </a>
+                    <a onclick="book_a_demo();" class="trial-button feature-button w-inline-block" style="width: 100%; max-width: 300px;">
+                        <div class="trail-text-two-home">デモを予約する</div>
+                    </a>
+                </div>
+            </div>
+            <!-- Image Block -->
+            <div class="home-hero-image-block">
+                <div class="banner-girl-image-block">
+                    <img src="./assets/images_new/eshop-back.png" alt="バナーガールイメージ" class="hero-main-image" style="max-width: 100%;">
+                </div>
+                <div class="banner-float-images">
+                    <img src="./assets/images_new/package-3.png" alt="イメージ1" class="float-image">
+                    <img src="./assets/images_new/package-1.png" alt="イメージ2" class="float-image">
+                    <img src="./assets/images_new/package-2.png" alt="イメージ3" class="float-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="strategy-section wf-section" style="background-color: #f9fafb;padding-top: 50px;background-image: url('./assets/images_new/bg4.png');background-size: cover;background-position: 0 0">
     <div class="page-container w-container">

@@ -2,16 +2,14 @@
 
 
 /* Big screen :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-    /* Responsive padding service-offer-section*/
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Responsive padding service-offer-section*/
 .service-offer-section-padding {
     padding-bottom: 150px;
     padding-top: 130px;
     background: #fff;
 }
-}
-
-
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -972,8 +970,8 @@ h1.home-hero-heading.v2 br {
     padding: 30px;
 }
     .audi-P .home-hero-section-one{
-    padding-bottom: 80px !important;
-    margin-bottom: -20px;
+    padding-bottom: 100px !important;
+    margin-bottom: -50px;
 }
     .audi-P{}
     .audi-P .offer.margin-bottom{
@@ -1278,11 +1276,6 @@ section.question-section {
         transform: translateY(-1px) !important;
     }
 
-    .service-offer-section-padding {
-        padding-bottom: 50px;
-        padding-top: 30px;
-        background: #fff;
-    }
 
 }
 

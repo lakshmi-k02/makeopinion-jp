@@ -1,5 +1,161 @@
 <?php include('header.php'); ?>
+<!-- Mobile Styles for hero images-->
+<style>
+    @media screen and (max-width: 767px) {
+        .float-image {
+            border-radius: 6px;
+        }
 
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        img {
+            border: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+        body {
+            color: #333;
+            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+
+        html {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            font-family: sans-serif;
+        }
+
+        .home-hero-image-block {
+            width: 100%;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+        }
+
+        .home-hero-image-block {
+            width: 100%;
+            background-image: none;
+            background-repeat: repeat;
+            background-size: auto;
+            justify-content: center;
+            display: flex;
+        }
+
+        .overlay-image {
+            width: 180px;
+            /* Smaller size for overlay images on mobile */
+        }
+
+        .master-container {
+            position: relative;
+            display: inline-block;
+            max-width: 60%;
+        }
+
+        .master-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            left: calc(100% + 10px);
+            /* Adds some space between the container and the overlay */
+        }
+
+        .banner-float-images {
+            /* width: 93%; */
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: -66px;
+            display: flex;
+        }
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            /* Moves the overlay to the right side of the container */
+            transform: translate(0, -50%);
+            /* Centers overlay vertically */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* Aligns overlay images to the left within the overlay */
+            gap: 20px;
+        }
+
+        .overlay-image {
+            width: 80px;
+            /* Set a fixed width for the overlay images */
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        /* Animation keyframes */
+        @keyframes floatImageAnimation {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Float images with animation */
+        .float-image {
+            border-radius: 6px;
+            opacity: 0;
+            transform: translateY(50px);
+            /* Start slightly below the final position */
+            animation: floatImageAnimation 1s ease-in-out forwards;
+        }
+
+        /* Animation delays for sequential appearance */
+        .float-image-one {
+            animation-delay: 0.2s;
+        }
+
+        .float-image-two {
+            animation-delay: 0.4s;
+        }
+
+        .float-image-three {
+            animation-delay: 0.6s;
+        }
+
+    }
+</style>
 <style>
     @media (min-width: 768px) and (max-width: 991px) {
         .w-dyn-list2 .scroller .scroller-inner {
@@ -71,7 +227,7 @@
         font-size: 48px
     }
 </style>
-<section class="home-hero-section-one wf-section" style="background: #fff;padding-bottom: 170px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
+<section class="home-hero-section-one wf-section desktop-only" style="background: #fff;padding-bottom: 170px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
     <div class="home-hero-container-large w-container">
         <div class="home-hero-main-block">
             <div class="home-hero-caption-block">
@@ -185,6 +341,105 @@
         </div>
     </div>
 
+</section>
+
+<!-- Mobile Hero Section  -->
+<section class="home-hero-section-one wf-section mobile-only" style="background: #fff; padding-bottom: 170px;background-image: url('./assets/images_new/bg-final.png'); background-size: cover; background-position: 0 0;">
+    <div class="home-hero-container-large w-container">
+        <div class="home-hero-main-block">
+            <div class="home-hero-caption-block">
+                <div class="overflow-off">
+                    <div data-w-id="1fd6d305-6679-7cb9-fb3a-46939f11c7c4" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="w-clearfix">
+                    <h1 class="home-hero-heading">
+                            <span><span style="color:#0070DF;font-size: 36px">学生向け</span>アンケート</span><br>
+                            アンケートを<span style="color:#0070DF">作成する</span><br>
+                            ターゲットに<span style="color:#0070DF">届ける</span><br>
+                            結果を<span style="color:#0070DF">理解する</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="overflow-off">
+                    <p data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee95" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; margin-top: 50px;" class="hero-para-two">
+                    実際のアンケートデータに基づく次世代の論文執筆が可能。<br>簡単な設定、迅速な結果、手頃な価格のオールインワンプラットフォームです。
+                    </p>
+                </div>
+                <div class="overflow-off">
+                    <div class="hero-caption-buttons-one">
+                        <a role="button" data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee98" data-fancybox="register2" href="#registerbox" class="trial-button w-inline-block">
+                            <div data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee99" class="trail-text-two-home">
+                            無料アカウントを作成
+                            </div>
+                        </a>
+                        <a role="button" data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee9d" href="mailto:hello@makeopinion.com" class="trial-button feature-button w-inline-block">
+                            <div data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee9e" class="trail-text-two-home">
+                            お問い合わせ
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Images Section Moved to the Bottom -->
+        <div class="home-hero-image-block">
+            <div data-w-id="b3ab55ef-0bde-ad3e-dba8-997bea786104" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <div class="home-hero-image-block">
+                    <!-- Big PNG -->
+                    <div class="banner-girl-image-block">
+                        <img src="./assets/images_new/students-back2.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 56vw, (max-width: 991px) 54vw, (max-width: 1439px) 26vw, 347.671875px" srcset="
+                          ./assets/images_new/students-back2.png 500w, 
+                          ./assets/images_new/students-back2.png 770w" alt="Banner Girl Image" class="hero-main-image">
+                    </div>
+                    <!-- Floating Images -->
+                    <div class="banner-float-images">
+                        <div class="float-image-one">
+                            <img src="./assets/images_new/students-1.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/students-1.png 500w, 
+                             ./assets/images_new/students-1.png 714w" alt="Banner Image One" class="float-image">
+                        </div>
+                        <div class="float-image-two">
+                            <img src="./assets/images_new/students-2.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/students-2.png 500w, 
+                             ./assets/images_new/students-2.png 710w" alt="Finance" class="float-image">
+                        </div>
+                        <div class="float-image-three">
+                            <img src="./assets/images_new/students-3.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 50vw, (max-width: 1439px) 25vw, 323.328125px" srcset="
+                             ./assets/images_new/students-3.png 500w, 
+                             ./assets/images_new/students-3.png 714w" alt="Order Value" class="float-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scrolling University Logos Section -->
+    <div class="pro-main-container w-container">
+        <div>
+            <div class="w-dyn-list">
+                <div class="marquee" data-duration="10000" data-gap="0" data-duplicated="true">
+                    <div class="marquee-inner">
+                        <div class="pro-main-image">
+                            <img height="96" width="96" src="./assets/images_new/uni1.png" alt="University Logo 1" class="autofit">
+                        </div>
+                        <div class="pro-main-image">
+                            <img height="96" width="96" src="./assets/images_new/uni3.png" alt="University Logo 2" class="autofit">
+                        </div>
+                        <div class="pro-main-image">
+                            <img height="96" width="96" src="./assets/images_new/uni2.png" alt="University Logo 3" class="autofit">
+                        </div>
+                        <div class="pro-main-image">
+                            <img height="96" width="96" src="./assets/images_new/uni8.png" alt="University Logo 4" class="autofit">
+                        </div>
+                        <div class="pro-main-image">
+                            <img height="96" width="96" src="./assets/images_new/uni5.png" alt="University Logo 5" class="autofit">
+                        </div>
+                        <!-- Additional Logos -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

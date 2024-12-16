@@ -14,55 +14,56 @@
 
    // Define an array to store page titles and their corresponding URLs
    $page_titles = array(
-      "/en/index.php" => "アンケートの作成・配信・集計をワンストップで",
-      "/en/audience.php" => "実際の人々の、リアルな声を、世界中から。",
-      "/en/uc-brand.php" => "ブランド認知度",
-      "/en/uc-concept-test.php" => "コンセプトテスト",
-      "/en/uc-landing-page.php" => "ランディングページ最適化",
-      "/en/uc-messaging.php" => "広告メッセージテスト",
-      "/en/uc-package-design.php" => "パッケージデザイン検証",
-      "/en/uc-price.php" => "価格分析",
-      "/en/uc-usage-attitudes.php" => "使用実態調査",
+      "/en/index.php" => "Create surveys. Reach People. Understand Results.",
+      "/en/audience.php" => "Real People. Honest Answers. Worldwide.",
+      "/en/uc-brand.php" => "Brand Understanding",
+      "/en/uc-concept-test.php" => "Concept Testing",
+      "/en/uc-landing-page.php" => "Landing Page Optimization",
+      "/en/uc-messaging.php" => "Messaging and Claims Test",
+      "/en/uc-package-design.php" => "Package Design Testing",
+      "/en/uc-price.php" => "Price Analysis Survey",
+      "/en/uc-usage-attitudes.php" => "Usage and Attitudes Survey",
       "/en/uc-ux-research.php" => "UX Research Survey",
-      "/en/pricing.php" => "調査ごとの課金システムで、初期費用・月額費用は０！!",
-      "/en/blog.php" => "Make Opinionブログ",
-      "/en/about-us-mission.php" => "Make Opinionのミッション",
-      "/en/about-us-conferences.php" => "イベントレポート",
-      "/en/research-students.php" => "学生向けの調査プラットフォーム",
-      "/en/user-designer.php" => "デザイナー向け",
-      "/en/user-ecommerce.php" => "Eコマース向け",
-      "/en/user-eshop.php" => "オンラインストア向け",
-      "/en/user-marketing.php" => "マーケティングチーム向け",
-      "/en/user-product.php" => "製品開発チーム向け",
-      "/en/user-researcher.php" => "研究者向け",
-      "/en/user-startup.php" => "スタートアップ向け",
-      "/en/user-students.php" => "学生向け"
+      "/en/pricing.php" => "Pay only for results. No platform fees, no subscriptions!",
+      "/en/blog.php" => "Make Opinion Blog",
+      "/en/about-us-mission.php" => "Make Opinion Misssion",
+      "/en/about-us-conferences.php" => "Make Opinion Team at conferences",
+      "/en/research-students.php" => "Survey Tool for Students",
+      "/en/user-designer.php" => "Make Opinion for Designers",
+      "/en/user-ecommerce.php" => "Make Opinion for eCommerce Platforms",
+      "/en/user-eshop.php" => "Make Opinion for eShops",
+      "/en/user-marketing.php" => "Make Opinion for Marketing Teams",
+      "/en/user-product.php" => "Make Opinion for Product Teams",
+      "/en/user-researcher.php" => "Make Opinion for Researchers",
+      "/en/user-startup.php" => "Make Opinion for Startups",
+      "/en/user-students.php" => "Make Opinion for Students"
    );
+
    $page_descriptions = array(
-      "/en/index.php" => "Make Opinionは、企業が世界中の実際の人々から素早くユーザーのインサイトを集めることのできる、完全な市場調査プラットフォームです。",
-      "/en/audience.php" => "世界数百万人の回答者に数分でアクセス可能、支払い前にリアルタイムで調査の価格と実現可能性を確認可能です。",
-      "/en/uc-brand.php" => "ブランドイメージや競合他社、ユーザーの製品利用の理由や障壁をを理解するため、Make Opinionのブランド認知度調査をご利用ください。",
-      "/en/uc-concept-test.php" => "コンセプトテストで顧客のニーズや好みを特定し、実際のフィードバックに基づいた製品を開発しましょう。",
-      "/en/uc-landing-page.php" => "ランディングページのパフォーマンス調査から、ユーザーがどんなデザインやコンテンツを好むのか理解を深めることができます。",
-      "/en/uc-messaging.php" => "説得力のあるコンテンツを作成し、メッセージング調査で、どのような内容がより効果的かを理解しましょう。",
-      "/en/uc-package-design.php" => "パッケージテ調査で、製品の完璧なデザインとキャッチコピーを見つけ、素晴らしい製品パッケージでリリースしましょう。",
-      "/en/uc-price.php" => "価格分析調査でユーザーの期待値を理解することによって、既存価格を最適化および新製品の適正価格を見極めることが可能です。",
-      "/en/uc-usage-attitudes.php" => "あなたのブランドの顧客層を理解しましょう：どんな人なのか、どのようにターゲティングし、どんあ製品を提供するのか。",
-      "/en/uc-ux-research.php" => "実際の人々からのフィードバックを元に、優れたユーザーエクスペリエンスを設計しましょう。UXリサーチでユーザーの嗜好を理解することが可能です。",
-      "/en/pricing.php" => "サブスクリプションなしで、必要な時に必要な分だけ調査を実施！市場調査予算から最大限の価値を引き出せるのがMake Opinionです。",
-      "/en/blog.php" => "Make Opinionブログでは、市場調査の世界を紹介しています。アンケートデザイン、対象の定義、および特定の方法論を、簡潔で分かりやすい記事で説明しています。",
-      "/en/about-us-mission.php" => "Make Opinionのミッションは、規模や予算に関係なく、企業が市場と顧客を理解することを可能にすることです。",
-      "/en/about-us-conferences.php" => "メインスピーカーとして様々な市場調査トピックに関するインサイトを共有したイベントのレポートをご確認いただけます。",
-      "/en/research-students.php" => "手軽な設定、迅速な回答データ取得、手頃な価格のオールインワンプラットフォームで実際の調査データに基づいたハイレベルな論文を執筆可能です。",
-      "/en/marketing.php" => "マーケティングチームが素晴らしい体験を設計する手助けをします。ブランドやメッセージを調整し、顧客の意見に基づいたプレゼンテーションでクライアントを感動させましょう。",
-      "/en/user-designer.php" => "実際の人々とのUXをテストしてみませんか？UXリサーチでユーザーからの実際のフィードバックに基づいたデザインが可能になります。",
-      "/en/user-ecommerce.php" => "競合を理解し、顧客の製品購入理由や障壁を把握しましょう。顧客が求めているものを見つけ、改善し、売上に繋げます。",
-      "/en/user-eshop.php" => "ブランディングやメッセージングを調整し、ユーザー意見に裏付けられたプレゼンテーションでクライアントを感動させましょう。",
-      "/en/user-marketing.php" => "売上につながる製品の写真や説明をテストすることでユーザー体験を最適化、売り上げを伸ばします。",
-      "/en/user-product.php" => "開発に投資する前にアイデアを検証しましょう。最も反響のある機能の優先順位づけが可能です。",
-      "/en/user-researcher.php" => "ユーザーフレンドリーなプラットフォーム、高度な質問タイプ、サーベイロジックで、リアルな人々からの迅速な回答取得と、データ可視化が可能です。",
-      "/en/user-startup.php" => "実際の人々とビジネスアイデアを検証し、磨き上げましょう。顧客に愛される製品作りに貢献します。",
-      "/en/user-students.php" => "手軽な設定、迅速な回答データ取得、手頃な価格のオールインワンプラットフォームで実際の調査データに基づいたハイレベルな論文を執筆可能です。"
+      "/en/index.php" => "Make Opinion is a complete Market Research platform, allowing businesses to gather fast customer insights from real people worldwide.",
+      "/en/audience.php" => "Access millions of survey respondents across the globe in minutes. Real time pricing and capacity feasibility before paying anything.",
+      "/en/uc-brand.php" => "Understand how your customers view your brand, your competition, reasons and barriers for product usage. Make Opinion brand awareness surveys.",
+      "/en/uc-concept-test.php" => "Identify customer needs and preferences, so that you can build products for real needs. Start a Concept Test survey today.",
+      "/en/uc-landing-page.php" => "Test the performance of your Landing Page with surveys. Understand why users prefer design and content variants.",
+      "/en/uc-messaging.php" => "Write persuasive content that sells. Understand what messages work better with a messaging test survey today.",
+      "/en/uc-package-design.php" => "Design amazing product packages that sell. Find the perfect design and copy for your product with Package Test surveys.",
+      "/en/uc-price.php" => "Understand customer expectations. Find prices for new products and optimise existing prices with price analysis surveys today.",
+      "/en/uc-usage-attitudes.php" => "Understand your customer base: who are they, how to target them, and with what product offerings.",
+      "/en/uc-ux-research.php" => "Design great user experiences by testing with real people. Understand users preferences with UX Research surveys.",
+      "/en/pricing.php" => "Get value out of every penny in your research budget. Run surveys when you need insights, not because you have a subscription!",
+      "/en/blog.php" => "Make Opinion Blog is introducing people in the world of Market Research. Survey Design, Audience Definition and specific methodologies are described in concise, easy to follow articles.",
+      "/en/about-us-mission.php" => "Make Opinion mission is to empower every business, no matter its size or budget, to understand the market and its customers.",
+      "/en/about-us-conferences.php" => "Review featured materials and events where we took center stage as featured speakers, sharing our insights on a range of market research topics.",
+      "/en/research-students.php" => "Next level thesis backed by data from real surveys. Easy setup, fast results, all in one platform at affordable prices.",
+      "/en/marketing.php" => "We empower Marketing teams to design amazing experiences. Fine tune branding and messaging. Impress your clients with pitches backed by customer opinions.",
+      "/en/user-designer.php" => "Test User Experience with real people. Iterate based on real feedback from users with UX Research surveys.",
+      "/en/user-ecommerce.php" => "Understand your competition, reasons and barriers for customer purchases. Find what your customers want, react and sell more.",
+      "/en/user-eshop.php" => "Fine tune branding and messaging. Impress your clients with pitches backed by customer opinions.",
+      "/en/user-marketing.php" => "Test and use product pictures and descriptions that sell. Optimize the experience of your users and simply sell more.",
+      "/en/user-product.php" => "Validate ideas before investing in development. Prioritize features for max impact.",
+      "/en/user-researcher.php" => "User-friendly platform, advanced question types and survey logic. Fast answers from real people and data visualisation for results.",
+      "/en/user-startup.php" => "Validate and refine your business idea with real people. Build products that sell and are loved by customers.",
+      "/en/user-students.php" => "Next level thesis backed by data from real surveys. Easy setup, fast results, all in one platform at affordable prices."
    );
 
    // Check if the current page exists in the array
@@ -72,10 +73,9 @@
       $description = $page_descriptions[$current_page];
    } else {
       // Set a default title if the current page is not found in the array
-      $title = "アンケートを作成。実際の回答者。結果を理解する。";
-      $description = "Make Opinionは、企業が世界中の実際の人々からリアルなカスタマーインサイトを得るのを助けます。";
+      $title = "Create surveys. Reach People. Understand Results.";
+      $description = "Make Opinion is a complete Market Research platform, allowing businesses to gather fast customer insights from real people worldwide.";
    }
-
 
    // Output the HTML with the dynamic title
    echo "
@@ -235,18 +235,18 @@
                   <div class="navbar-menu">
                      <div class="nav-dropdown dropdown-border w-dropdown" style="max-width: 1290px;display: none">
                         <div class="menu-font w-dropdown-toggle" role="button" tabindex="0">
-                           <div onClick="window.location='<?php echo $server; ?>/index.php';" class="menu-font">ホーム</div>
+                           <div onClick="window.location='<?php echo $server; ?>/index.php';" class="menu-font">Home</div>
                         </div>
                      </div>
                      <div data-hover="true" data-delay="0" data-w-id="aa47c58e-d18c-9f72-b96c-cee67149e1f9" class="nav-dropdown dropdown-border w-dropdown" style="max-width: 1290px;">
                         <div class="menu-font w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
                            <div class="nevigation-icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                           <div class="menu-font">サービス</div>
+                           <div class="menu-font">Products</div>
                         </div>
                         <nav class="nevigation-dropdown-list w-dropdown-list" style="transform: translate3d(0px, 10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; padding: 10px" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
-                           <a href="<?php echo $server; ?>/index.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinionオンラインリサーチ</a>
-                           <a style="display: none" href="live-interview.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinionライブインタビュー</a>
-                           <a href="<?php echo $server; ?>/audience.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinionのオーディエンス</a>
+                           <a href="<?php echo $server; ?>/index.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinion Research</a>
+                           <a style="display: none" href="live-interview.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinion Live Interview</a>
+                           <a href="<?php echo $server; ?>/audience.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Make Opinion Audience</a>
                         </nav>
                      </div>
 
@@ -256,33 +256,33 @@
                            aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false"
                            role="button" tabindex="0">
                            <div class="nevigation-icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                           <div class="menu-font">ソリューション</div>
+                           <div class="menu-font">Solutions</div>
                         </div>
                         <nav class="nevigation-dropdown-list w-dropdown-list"
                            style="transform: translate3d(0px, 10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                            id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
                            <div class="dropdown__menu__wrapper">
                               <div class="dropdown__menu__left">
-                                 <h3 class="dropdown__menu__title">目的から</h3>
-                                 <a href="<?php echo $server; ?>/uc-brand.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">ブランド認知度・競合調査</a>
-                                 <a href="<?php echo $server; ?>/uc-concept-test.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">コンセプトテスト</a>
-                                 <a href="<?php echo $server; ?>/uc-landing-page.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">ランディングページ最適化</a>
-                                 <a href="<?php echo $server; ?>/uc-messaging.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">広告メッセージの効果検証</a>
-                                 <a href="<?php echo $server; ?>/uc-package-design.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">パッケージデザイン</a>
-                                 <a href="<?php echo $server; ?>/uc-price.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">価格分析</a>
-                                 <a href="<?php echo $server; ?>/uc-usage-attitudes.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">使用実態調査</a>
-                                 <a href="<?php echo $server; ?>/uc-ux-research.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">UX検証</a>
+                                 <h3 class="dropdown__menu__title">Use cases</h3>
+                                 <a href="<?php echo $server; ?>/uc-brand.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Brand Understanding</a>
+                                 <a href="<?php echo $server; ?>/uc-concept-test.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Concept and Idea Test</a>
+                                 <a href="<?php echo $server; ?>/uc-landing-page.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Landing Page Optimization</a>
+                                 <a href="<?php echo $server; ?>/uc-messaging.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Message and Claims Test</a>
+                                 <a href="<?php echo $server; ?>/uc-package-design.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Package Design Test</a>
+                                 <a href="<?php echo $server; ?>/uc-price.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Price Analysis</a>
+                                 <a href="<?php echo $server; ?>/uc-usage-attitudes.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Usage and Attitudes</a>
+                                 <a href="<?php echo $server; ?>/uc-ux-research.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">UX Research</a>
                               </div>
                               <div class="dropdown__menu__right">
-                                 <h3 class="dropdown__menu__title">職種から</h3>
-                                 <a href="<?php echo $server; ?>/user-designer.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">デザイナー</a>
-                                 <a href="<?php echo $server; ?>/user-ecommerce.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Eコマース</a>
-                                 <a href="<?php echo $server; ?>/user-marketing.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">マーケティング</a>
-                                 <a href="<?php echo $server; ?>/user-eshop.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">eストア</a>
-                                 <a href="<?php echo $server; ?>/user-product.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">製品開発者</a>
-                                 <a href="<?php echo $server; ?>/user-researcher.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">研究者</a>
-                                 <a href="<?php echo $server; ?>/user-startup.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">スタートアップ</a>
-                                 <a href="<?php echo $server; ?>/user-students.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">学生</a>
+                                 <h3 class="dropdown__menu__title">Our users</h3>
+                                 <a href="<?php echo $server; ?>/user-designer.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Designers</a>
+                                 <a href="<?php echo $server; ?>/user-ecommerce.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">E-Commerce</a>
+                                 <a href="<?php echo $server; ?>/user-marketing.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Marketing</a>
+                                 <a href="<?php echo $server; ?>/user-eshop.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">eShops</a>
+                                 <a href="<?php echo $server; ?>/user-product.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Product</a>
+                                 <a href="<?php echo $server; ?>/user-researcher.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Researcher</a>
+                                 <a href="<?php echo $server; ?>/user-startup.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Startups</a>
+                                 <a href="<?php echo $server; ?>/user-students.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Students</a>
                               </div>
                            </div>
                         </nav>
@@ -290,12 +290,12 @@
 
                      <div class="nav-dropdown dropdown-border w-dropdown" style="max-width: 1290px;">
                         <div class="menu-font w-dropdown-toggle">
-                           <div onClick="window.location='<?php echo $server; ?>/pricing.php';" class="menu-font">料金</div>
+                           <div onClick="window.location='<?php echo $server; ?>/pricing.php';" class="menu-font">Pricing</div>
                         </div>
                      </div>
                      <div class="nav-dropdown dropdown-border w-dropdown" style="max-width: 1290px;">
                         <div class="menu-font w-dropdown-toggle">
-                           <div onClick="window.open('https://makeopinion.com/en/blog.php', '_blank')" class="menu-font">ブログ</div>
+                           <div onClick="window.location='<?php echo $server; ?>/blog.php';" class="menu-font">Blog</div>
                         </div>
                      </div>
 
@@ -305,8 +305,8 @@
                            <div class="menu-font">About Us</div>
                         </div>
                         <nav class="nevigation-dropdown-list w-dropdown-list" style="transform: translate3d(0px, 10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; padding: 10px" id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3">
-                           <a href="https://makeopinion.com/jp/about-us-mission.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">私たちのミッション</a>
-                           <a href="https://makeopinion.com/jp/about-us-conferences.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">イベントレポート</a>
+                           <a href="https://makeopinion.com/en/about-us-mission.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Our Mission</a>
+                           <a href="https://makeopinion.com/en/about-us-conferences.php" class="menu-font margin-off padding-off w-dropdown-link single__font__list" tabindex="0">Industry Events</a>
                         </nav>
                      </div>
 
@@ -331,14 +331,14 @@
             </div>
             <div class="smart-application-hero-button responsive-button-off" style="background-color:transparent">
                <div class="smart-application-hero-button-bg" style="background-color:transparent"></div>
-               <a role="button" href="https://next.makeopinion.com/" class="trial-button feature-button w-inline-block" style="padding-left:20px; padding-right:20px;margin-right:10px;">
-                  <div class="trail-text-two-home">ログイン</div>
+               <a role="button" href="https://app.makeopinion.com/" class="trial-button feature-button w-inline-block" style="padding-left:20px; padding-right:20px;margin-right:10px;">
+                  <div class="trail-text-two-home">Sign In</div>
                </a>
             </div>
             <div class="smart-application-hero-button responsive-button-off">
                <div class="smart-application-hero-button-bg"></div>
                <a role="button" data-fancybox="register" href="#registerbox" class="trial-button bg-yellow w-inline-block" style="background: #0070DF;color:#fff;padding-left:20px; padding-right:20px;">
-                  <div class="trail-text-two-home">新規登録</div>
+                  <div class="trail-text-two-home">Register</div>
                </a>
             </div>
          </div>
