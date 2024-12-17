@@ -157,7 +157,8 @@
 
     }
 </style>
-<section class="home-hero-section-one wf-section" style="background: #fff;padding-bottom: 150px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
+
+<section class="home-hero-section-one wf-section desktop-only" style="background: #fff;padding-bottom: 150px;padding-top:130px;background-image: url('./assets/images_new/bg-final.png');background-size: cover;background-position: 0 0">
     <div class="home-hero-container-large w-container">
         <div class="home-hero-main-block">
             <div class="home-hero-caption-block">
