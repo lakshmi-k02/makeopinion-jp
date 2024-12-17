@@ -365,7 +365,7 @@
                 </div>
                 <div class="overflow-off">
                     <div class="hero-caption-buttons-one">
-                        <a role="button" data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee98" data-fancybox="register2" href="#registerbox" class="trial-button w-inline-block">
+                        <a role="button" data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee98" data-fancybox="register7" href="#registerbox" class="trial-button w-inline-block">
                             <div data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee99" class="trail-text-two-home">
                             無料アカウントを作成
                             </div>

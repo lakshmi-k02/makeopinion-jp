@@ -244,7 +244,7 @@
                 </div>
                 <!-- CTA Buttons -->
                 <div class="overflow-off" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-                    <a href="#registerbox" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
+                    <a href="#registerbox" data-fancybox="register3" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
                         <div class="trail-text-two-home">UXリサーチを無料で始める</div>
                     </a>
                     <a href="mailto:hello@makeopinion.com" class="trial-button feature-button w-inline-block" style="width: 100%; max-width: 300px;">

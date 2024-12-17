@@ -246,7 +246,7 @@
                 </div>
                 <!-- CTA Buttons -->
                 <div class="overflow-off" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-                    <a href="#registerbox" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
+                    <a href="#registerbox" data-fancybox="register6" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
                         <div class="trail-text-two-home">無料アカウントを作成</div>
                     </a>
                     <a onclick="book_a_demo();" class="trial-button feature-button w-inline-block" style="width: 100%; max-width: 300px;">

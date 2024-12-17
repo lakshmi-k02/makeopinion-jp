@@ -220,7 +220,7 @@
     </div>
 </section>
 
-<!-- MOBILE ONLY HERO SECTION TEMPLATE -->
+<!-- Mobile Hero Section -->
 <section class="home-hero-section-one wf-section mobile-only" style="background: #fff; padding-top: 80px; background-image: url('./assets/images_new/bg-final.png'); background-size: cover; background-position: center;">
     <div class="home-hero-container-large w-container" style="max-width: 1200px; margin: 0 auto;">
         <!-- Main Block -->
@@ -229,41 +229,43 @@
             <div class="home-hero-caption-block" style="width: 100%; display: flex; flex-direction: column;">
                 <div class="overflow-off">
                     <h1 class="home-hero-heading" style="text-align: center; margin-bottom: 1.5rem;">
-                        <span style="font-size: clamp(24px, 4vw, 36px);">ブランド認知度・競合調査</span><br>
-                        <span style="color:#0070DF">競合</span>を理解<br />
-                        <span style="color:#0070DF">認知度</span>を測る<br />
-                        <span style="color:#0070DF">ブランドイメージ</span>を知る
+                        <span style="font-size: clamp(24px, 4vw, 36px);">コンセプトテスト</span><br>
+                        アイデアを<span style="color:#0070DF">想像する</span><br />
+                        コンセプトを<span style="color:#0070DF">検証する</span><br />
+                        製品開発に<span style="color:#0070DF">繋げる</span>
                     </h1>
                 </div>
                 <div class="overflow-off">
-                    <p class="hero-para-two" style="margin: 1.5rem 0; text-align: center;">
-                        顧客があなたのブランド、競合他社、製品使用の理由や障壁をどのように見ているかを理解するためのブランド認知度調査を実施します。
+                    <p class="hero-para-two" style="margin: 1.5rem 0; text-align: center; font-size: 14px;">
+                        顧客のニーズと好みを特定し、実際のニーズに合った製品の開発を可能にします。<br>さあ、コンセプトテストを始めましょう。
                     </p>
                 </div>
                 <!-- CTA Buttons -->
                 <div class="overflow-off" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-                    <a href="#registerbox" class="trial-button w-inline-block" style="width: 100%; max-width: 300px;">
+                    <a role="button" data-w-id="ed211d01-a9c7-1804-c0ae-c31feba0ee98" data-fancybox="register3" href="#registerbox" class="trial-button w-inline-block">
                         <div class="trail-text-two-home">無料アカウントを作成</div>
                     </a>
-                    <a href="mailto:hello@makeopinion.com" class="trial-button feature-button w-inline-block" style="width: 100%; max-width: 300px;">
+                    <a href="mailto:hello@makeopinion.com" class="trial-button feature-button w-inline-block" style="width: 100%; max-width: 300px; text-align: center; text-decoration: none; background-color: #0070DF; color: #fff; padding: 10px 0; border-radius: 5px; font-weight: bold;">
                         <div class="trail-text-two-home">お問い合わせ</div>
                     </a>
                 </div>
             </div>
             <!-- Image Block -->
-            <div class="home-hero-image-block">
+            <div class="home-hero-image-block" style="text-align: center;">
                 <div class="banner-girl-image-block">
-                    <img src="./assets/images_new/brand-back2.png" alt="バナーガールイメージ" class="hero-main-image" style="max-width: 100%;">
+                    <img src="./assets/images_new/concept-back.png" alt="Banner Girl Image" class="hero-main-image" style="max-width: 100%;">
                 </div>
-                <div class="banner-float-images">
-                    <img src="./assets/images_new/brand-1.png" alt="イメージ1" class="float-image">
-                    <img src="./assets/images_new/brand-2.png" alt="イメージ2" class="float-image">
-                    <img src="./assets/images_new/brand-3.png" alt="イメージ3" class="float-image">
+                <div class="banner-float-images" style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+                    <img src="./assets/images_new/concept-1.png" alt="Banner Image One" class="float-image" style="max-width: 30%;">
+                    <img src="./assets/images_new/concept-2.png" alt="Finance" class="float-image" style="max-width: 30%;">
+                    <img src="./assets/images_new/concept-3.png" alt="Order Value" class="float-image" style="max-width: 30%;">
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 <section class="home-new-technology-section-one wf-section" style="background-color:#fff;padding-top: 50px!important;background-image: url('./assets/images_new/bg4.png');background-size: cover;background-position: 0 0">
     <div class="new-tech-container w-container">

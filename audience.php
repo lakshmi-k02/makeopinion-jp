@@ -82,7 +82,7 @@
     </div>
     <!-- CTA Buttons First -->
     <div class="hero-caption-buttons-one" style="margin-bottom: 20px; text-align: center;">
-      <a role="button" href="#registerbox" class="trial-button w-inline-block" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #0070DF; color: #fff; border-radius: 5px; text-decoration: none; font-size: 14px;">無料でサンプルを確認する</a>
+      <a role="button" href="#registerbox" data-fancybox="register4" class="trial-button w-inline-block" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #0070DF; color: #fff; border-radius: 5px; text-decoration: none; font-size: 14px;">無料でサンプルを確認する</a>
       <a role="button" href="mailto:bidding@makeopinion.com" class="trial-button feature-button w-inline-block" style="display: inline-block; padding: 10px 20px; background-color: #0070DF; color: #fff; border-radius: 5px; text-decoration: none; font-size: 14px;">お問い合わせ</a>
     </div>
     <!-- Hero Image Block Last -->
