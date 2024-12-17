@@ -1,5 +1,11 @@
 <?php include('header.php'); ?>
+<style>
+    h1.home-hero-heading {
+        font-size: 48px
+    }
+</style>
 
+<!-- Mobile Styles for hero images-->
 <!-- Mobile Styles for hero images-->
 <style>
     @media screen and (max-width: 767px) {
@@ -251,14 +257,14 @@
                 </div>
             </div>
             <!-- Image Block -->
-            <div class="home-hero-image-block" style="text-align: center;">
+            <div class="home-hero-image-block">
                 <div class="banner-girl-image-block">
-                    <img src="./assets/images_new/concept-back.png" alt="Banner Girl Image" class="hero-main-image" style="max-width: 100%;">
+                    <img src="./assets/images_new/concept-back.png" alt="バナーガールイメージ" class="hero-main-image" style="max-width: 100%;">
                 </div>
-                <div class="banner-float-images" style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
-                    <img src="./assets/images_new/concept-1.png" alt="Banner Image One" class="float-image" style="max-width: 30%;">
-                    <img src="./assets/images_new/concept-2.png" alt="Finance" class="float-image" style="max-width: 30%;">
-                    <img src="./assets/images_new/concept-3.png" alt="Order Value" class="float-image" style="max-width: 30%;">
+                <div class="banner-float-images">
+                    <img src="./assets/images_new/concept-1.png" alt="イメージ1" class="float-image">
+                    <img src="./assets/images_new/concept-2.png" alt="イメージ2" class="float-image">
+                    <img src="./assets/images_new/concept-3.png" alt="イメージ3" class="float-image">
                 </div>
             </div>
         </div>
